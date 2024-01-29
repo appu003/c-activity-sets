@@ -1,0 +1,24 @@
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem02.c -o problem.exe
+problem02.c: In function 'main':
+problem02.c:6:15: error: 'd' undeclared (first use in this function)
+  printf("%f",&d) ;
+               ^
+problem02.c:6:15: note: each undeclared identifier is reported only once for each function it appears in
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem02.c -o problem.exe
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gdb .\problem01.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01\problem01.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01/.\problem01.exe
+[New Thread 40944.0x5510]
+[New Thread 40944.0xadbc]
+apoorva[Inferior 1 (process 40944) exited normally]
+(gdb) quit
