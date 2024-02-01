@@ -7,7 +7,6 @@ int main() {
     char string1[100], string2[100];
     input_two_strings(string1, string2);
     int result = stringcompare(string1, string2);
-
     output(string1, string2, result);
 
     return 0;
@@ -20,7 +19,7 @@ void input_two_strings(char *string1, char *string2) {
     scanf("%s", string2);
 }
 int stringcompare(char *string1, char *string2) {
-    int i = 0;}
+    int i = 0;
 
     while (string1[i] != '\0' && string2[i] != '\0') {
         if (string1[i] != string2[i]) {
@@ -30,6 +29,7 @@ int stringcompare(char *string1, char *string2) {
     }
 
     return string1[i] - string2[i];
+}
 void output(char *string1, char *string2, int result) {
     if (result == 0) {
         printf("The strings '%s' and '%s' are equal.\n", string1, string2);
