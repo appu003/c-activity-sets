@@ -1,0 +1,25 @@
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem11.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gdb a.exe             
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01/a.exe
+[New Thread 40656.0x4790]
+[New Thread 40656.0xb258]
+For the first complex number:
+Enter the real and imaginary parts: 2 3
+For the second complex number:
+Enter the real and imaginary parts: 4 5
+The first complex number is: 2.0 + 3.0i
+The second complex number is: 4.0 + 5.0i
+The sum of these complex numbers is: 6.0 + 8.0i
+[Inferior 1 (process 40656) exited normally]
+(gdb) quit
