@@ -8,7 +8,6 @@ int main() {
     input_two_strings(string1, string2);
     int result = stringcompare(string1, string2);
 
-    // Output
     output(string1, string2, result);
 
     return 0;
@@ -21,7 +20,7 @@ void input_two_strings(char *string1, char *string2) {
     scanf("%s", string2);
 }
 int stringcompare(char *string1, char *string2) {
-    int i = 0;
+    int i = 0;}
 
     while (string1[i] != '\0' && string2[i] != '\0') {
         if (string1[i] != string2[i]) {
