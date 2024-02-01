@@ -1,0 +1,30 @@
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gcc -g -O0 problem07.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> gdb a.exe             
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01/a.exe
+[New Thread 45164.0x7918]
+[New Thread 45164.0xb2a8]
+Enter a natural number (n): quit
+The sum of all natural numbers up to 6422476 is: -330758866
+[Inferior 1 (process 45164) exited normally]
+(gdb) quit
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set01> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.21 KiB | 1.21 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/appu003/c-activity-sets.git
+   a859584..83603ca  main -> main
