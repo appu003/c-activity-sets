@@ -17,7 +17,7 @@ void output(int a, int b, int gcd) {
     printf("GCD of %d and %d is: %d\n", a, b, gcd);
 }
 
-int main() {
+int main() { 
     int num1 = input();
     int num2 = input();
     int gcd = find_gcd(num1, num2);
