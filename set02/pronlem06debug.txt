@@ -1,0 +1,44 @@
+git commit -m "test" 
+[main c947701] test
+ 4 files changed, 59 insertions(+), 1 deletion(-)
+ create mode 100644 set02/problem05debug.txt
+ create mode 100644 set02/problem05error.txt
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02> gcc -g -O0 problem06.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02> gdb .\a.exe           
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02/.\a.exe
+[New Thread 8992.0x5d0]
+[New Thread 8992.0x3838]
+Enter a string: hello
+Original String: hello
+Reversed String: olleh
+[Inferior 1 (process 8992) exited normally]
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02/.\a.exe 
+[New Thread 23512.0x34b0]
+[New Thread 23512.0x2440]
+Enter a string: q
+Original String: q
+Reversed String: q
+[Inferior 1 (process 23512) exited normally]
+(gdb) q
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set02> git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.27 KiB | 1.27 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/appu003/c-activity-sets.git
+   1ffd4b6..c947701  main -> main
