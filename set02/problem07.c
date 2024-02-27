@@ -11,7 +11,7 @@ Triangle input_triangle() {
     scanf("%f", &t.altitude);
     return t;
 }
-void find_area(Triangle *t) {
+void find_area(Triangle *t) {  
     t->area = 0.5 * t->base * t->altitude;
 }
 void output(Triangle t) {
@@ -24,4 +24,4 @@ int main() {
     output(myTriangle);
 
     return 0;
-}
+}  
