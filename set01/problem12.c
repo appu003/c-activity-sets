@@ -11,7 +11,7 @@ int get_n()
     return n;
 }
 Complex input_complex()
-{
+{            
     Complex c;
     printf("Enter the real and imaginary parts: ");
     scanf("%f %f", &c.real, &c.imaginary);
