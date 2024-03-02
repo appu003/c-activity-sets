@@ -1,0 +1,22 @@
+ gcc -g -O0 problem02.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03> gdb .\a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03/.\a.exe
+[New Thread 15780.0x1024]
+[New Thread 15780.0x5e08]
+Enter coordinates of the first point (x1 y1): 1 1
+Enter coordinates of the second point (x2 y2): 0 0
+Enter coordinates of the third point (x3 y3): 1 1
+The points (1.00, 1.00), (0.00, 0.00), and (1.00, 1.00) do not form a triangle.
+[Inferior 1 (process 15780) exited normally]
+(gdb) q
