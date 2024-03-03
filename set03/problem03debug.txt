@@ -1,0 +1,30 @@
+gcc -g -O0 problem03.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03> gdb .\a.exe           
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03/.\a.exe 
+[New Thread 9144.0x6234]
+[New Thread 9144.0x13dc]
+Enter a positive integer: 3
+3 is a prime number.
+[Inferior 1 (process 9144) exited normally]
+(gdb) q
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03> git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.25 KiB | 1.25 MiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/appu003/c-activity-sets.git
+   9c16e6a..f757091  main -> main
