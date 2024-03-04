@@ -1,0 +1,20 @@
+ gcc -g -O0 problem04.c
+PS C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03> gdb .\a.exe
+GNU gdb (GDB) 7.6.1
+Copyright (C) 2013 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "mingw32".
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>...
+Reading symbols from C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03\a.exe...done.
+(gdb) r
+Starting program: C:\Users\apoorva\Desktop\c-activity-sets\c-activity-sets\set03/.\a.exe
+[New Thread 11780.0x2d84]
+[New Thread 11780.0x5f90]
+Enter the value of n (n >= 0): 5
+The 5th number in the Fibonacci sequence is: 5
+[Inferior 1 (process 11780) exited normally]
+(gdb) q
